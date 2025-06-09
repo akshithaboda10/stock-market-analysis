@@ -1,0 +1,16 @@
+# Ignore virtual environments
+venv/
+ENV/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter notebook autosaves
+.ipynb_checkpoints/
+
+# Ignore model and temp files
+*.h5
+*.keras
+*.pkl
+logs/
